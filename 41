@@ -1,0 +1,17 @@
+1.何謂『協定』（Protocol) ：以某一種大家所認同的方法來互相溝通稱之為協議。 
+2.何謂『通訊協定』（Communication Protocol）：就是定義電腦間互相通訊且受共同認定的協議標準。 
+3.為何要分層? 為了減少設計上的複雜性。
+4.Application層 
+  4.1 HTTP vs HTTPS：
+     (A)HyperText Transfer Protocol以及HyperText Transfer Protocol Secure。
+     (B)應用層。
+     (C)被設計來讓瀏覽器和伺服器進行溝通。
+        在不安全的網路上建立一個安全頻道。
+     (D)使用網頁瀏覽器、網路爬蟲。
+        利用SSL/TLS來加密封包。
+  4.2 FTP vs SFTP | FTPS：
+     (A)File Transfer Protocol與Secure File Transfer Protocol | File Transfer Protocol Secure Sockets Layer
+     (B)應用層
+     (C)用於Internet上的控制文件的雙向傳輸
+        為傳輸文件提供一種安全的加密
+     (D)  
